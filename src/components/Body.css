@@ -1,0 +1,54 @@
+.body {
+  width: 100%;
+  height: 100vh;
+  position: relative;
+}
+
+.body-about {
+  width: 100%;
+  height: 60vh;
+  position: relative;
+}
+
+.body-about h1 {
+  padding: 3rem;
+}
+
+img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.body-text {
+  position: absolute;
+  top: 55%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 100%;
+}
+
+.body-text h1 {
+  font-size: 3rem;
+  font-weight: 800;
+  background: whitesmoke;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.body-text p {
+  font-size: 1.3rem;
+  padding: 0.5rem 2rem;
+  background: whitesmoke;
+}
+
+@media screen and (max-width: 555px) {
+  .body-text h1 {
+    padding: 10px 20px;
+  }
+
+  .body-text p {
+    font-size: 1.1rem;
+    padding: 0 0 2rem;
+  }
+}
